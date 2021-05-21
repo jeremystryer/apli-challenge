@@ -1,0 +1,40 @@
+html, body {
+  font: 16px black Arial, Helvetica, sans-serif;
+}
+
+body {
+  /* outline: 3px solid red; */
+  text-align: center;
+  margin: 0 4%;
+}
+
+/* #page-title {
+  text-align: center;
+} */
+
+#flex-container {
+  /* outline: 3px solid red; */
+  display: flex;
+  border: 2px solid #716d6d;
+}
+
+#sidebar {
+  flex: 1;
+  border-right: 1px solid #716d6d;
+  /* outline: 3px solid red; */
+}
+
+#featured-image {
+  width: 100%;
+}
+
+figcaption > p {
+  text-align: left;
+}
+
+#character-list {
+  flex: 3;
+  max-height: 900px;
+  overflow: auto;
+  /* outline: 3px solid blue; */
+}
