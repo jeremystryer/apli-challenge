@@ -1,5 +1,7 @@
 html, body {
   font: 16px black Arial, Helvetica, sans-serif;
+  background-color: #24282E;
+  color: #dedcdc;
 }
 
 body {
@@ -8,12 +10,16 @@ body {
   margin: 0 4%;
 }
 
-/* #page-title {
-  text-align: center;
-} */
+#page-title-and-description {
+ font-size: 1.5rem;
+ line-height: 60%;
+}
+
+.tv-show-name {
+  font-style: italic;
+}
 
 #flex-container {
-  /* outline: 3px solid red; */
   display: flex;
   border: 2px solid #716d6d;
 }
@@ -26,15 +32,70 @@ body {
 
 #featured-image {
   width: 100%;
+  height: auto;
 }
 
 figcaption > p {
   text-align: left;
 }
 
-#character-list {
-  flex: 3;
+figcaption a {
+  color: white;
+}
+
+#characters-list-container {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  border: 1px solid #716d6d;
   max-height: 900px;
   overflow: auto;
-  /* outline: 3px solid blue; */
+}
+
+
+
+.character-container {
+  display: flex;
+  border-bottom: 1px solid #716d6d;
+  background-color: #3B3E43;
+  padding: 2%;
+  flex: 1;
+  box-shadow: 10px 5px 5px #e8e5e5;
+}
+
+.thumbnail {
+  width: 25%;
+  height: auto;
+  flex: 1;
+}
+
+.character-details {
+  flex: 6;
+  text-align: center;
+}
+
+.character-details h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.character-details ul {
+  list-style-type: none;
+  margin-left: none;
+  text-align: left;
+}
+
+.character-details button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 2px rgb(187, 185, 185);
+  font: inherit;
+}
+
+li {
+  margin-left: none;
+  padding-left: none;
 }
