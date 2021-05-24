@@ -5,3 +5,5 @@ The website uses [The Rick and Morty API](https://rickandmortyapi.com/) to retri
 For the layout, I made use of `flexbox` and a single media query with a breakpoint at 700px that changes the `flex-direction` to column. I use `handlebars.js` to create the template for the details from each character.
 
 Normally, I would separate the JS functionality into different objects or "classes", but since the scope of this project was small, I didn't do so.
+
+The live site can be viewed at [https://jeremystryer.github.io/apli-challenge/](https://jeremystryer.github.io/apli-challenge/).
